@@ -1,4 +1,5 @@
 ## self_trained_bot
+Trained a CLU model in Azure Bot Service to enable the bot to respond to users in a specific role.
 
 ### 執行方法
 執行dialog/MainDialog.cs後複製獲取到的api網址，在Bot Framework Emulator 利用此api 創建一個bot
