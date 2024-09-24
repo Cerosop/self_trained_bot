@@ -1,50 +1,14 @@
-# CoreBot With CLU
+## self_trained_bot
 
-Bot Framework v4 core bot sample using the CLU Recognizer.
+### 執行方法
+執行dialog/MainDialog.cs後複製獲取到的api網址，在Bot Framework Emulator 利用此api 創建一個bot
 
-This bot has been created using [Bot Framework](https://dev.botframework.com); it shows how to:
+### 使用語言及技術
+C#、Azure Bot Service、CLU、自然語言處理、雲端服務
 
-- Use [CLU][CLU_ServiceDocHomepage] to implement core AI capabilities
-- Implement a multi-turn conversation using Dialogs
-- Prompt for and validate requests for information from the user
+### 自訓練模型
+![image](https://github.com/user-attachments/assets/d50cb8c3-03fc-4a17-834c-2fba36646ed8)
+![image](https://github.com/user-attachments/assets/330789e4-6d04-4bc6-a032-e5182ec0db3f)
 
-## Prerequisites
-
-This sample **requires** prerequisites in order to run.
-
-### Overview
-
-This bot uses [Conversational Language Understanding (CLU)][CLU_ServiceDocHomepage], an AI based cognitive service, to implement language understanding. The service uses natively multilingual models, which means that users would be able to train their models in one language but predict in others. Users of the service have access to the [language studio][languagestudio], which simplifies the process of adding/importing data, labelling it, training a model, and then finally evaluating it. For more information, visit the official [service docs][CLU_ServiceDocHomepage].
-
-
-### Install .NET Core CLI
-
-- [.NET Core SDK](https://dotnet.microsoft.com/download) version 3.1
-
-  ```bash
-  # determine dotnet version
-  dotnet --version
-  ```
-
-### Get started
-
-Follow the [tutorial](https://docs.microsoft.com/en-us/azure/cognitive-services/language-service/conversational-language-understanding/tutorials/bot-framework) in the CLU documentation. 
-
-## Further reading
-
-- [Bot Framework Documentation](https://docs.botframework.com)
-- [Bot Basics](https://docs.microsoft.com/azure/bot-service/bot-builder-basics?view=azure-bot-service-4.0)
-- [Dialogs](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-concept-dialog?view=azure-bot-service-4.0)
-- [Gathering Input Using Prompts](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-prompts?view=azure-bot-service-4.0&tabs=csharp)
-- [Activity processing](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-concept-activity-processing?view=azure-bot-service-4.0)
-- [Azure Bot Service Introduction](https://docs.microsoft.com/azure/bot-service/bot-service-overview-introduction?view=azure-bot-service-4.0)
-- [Azure Bot Service Documentation](https://docs.microsoft.com/azure/bot-service/?view=azure-bot-service-4.0)
-- [.NET Core CLI tools](https://docs.microsoft.com/en-us/dotnet/core/tools/?tabs=netcore2x)
-- [Azure CLI](https://docs.microsoft.com/cli/azure/?view=azure-cli-latest)
-- [Azure Portal](https://portal.azure.com)
-- [Language Understanding using LUIS](https://docs.microsoft.com/en-us/azure/cognitive-services/luis/)
-- [Channels and Bot Connector Service](https://docs.microsoft.com/en-us/azure/bot-service/bot-concepts?view=azure-bot-service-4.0)
-
-[CLU_ServiceDocHomepage]: https://docs.microsoft.com/azure/cognitive-services/language-service/conversational-language-understanding/overview
-[CLU_ServiceQuickStart]: https://docs.microsoft.com/azure/cognitive-services/language-service/conversational-language-understanding/quickstart
-[languagestudio]: https://language.azure.com/
+### 實作結果
+![image](https://github.com/user-attachments/assets/3f4898d1-8736-4ac9-a808-e248168ac20f)
