@@ -1,0 +1,18 @@
+{
+    "name": "bot",
+    "description": "",
+    "services": [
+        {
+            "type": "endpoint",
+            "name": "http://localhost:3978/api/messages",
+            "id": "71cc9600-795c-11ef-9396-c726699f8b46",
+            "appId": "",
+            "appPassword": "",
+            "endpoint": "http://localhost:3978/api/messages"
+        }
+    ],
+    "padlock": "",
+    "version": "2.0",
+    "path": "C:\\Users\\hsu\\source\\repos\\CoreBotWithCLU\\bot_test\\bot.bot",
+    "overrides": null
+}
