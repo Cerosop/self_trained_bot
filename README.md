@@ -5,7 +5,7 @@ Trained a CLU model in Azure Bot Service to enable the bot to respond to users i
 執行dialog/MainDialog.cs後複製獲取到的api網址，在Bot Framework Emulator 利用此api 創建一個bot
 
 ### 使用語言及技術
-C#、Azure Bot Service、CLU、自然語言處理、雲端服務
+C#、Azure、CLU、自然語言處理、雲端服務
 
 ### 自訓練模型
 ![image](https://github.com/user-attachments/assets/d50cb8c3-03fc-4a17-834c-2fba36646ed8)
